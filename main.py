@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"mesage": "Skibidi Toilet fortnite balls"}
+    return {"mesage": "Hello World"}
 
 @app.post("/")
 async def post():
